@@ -1,0 +1,29 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[__EFMigrationsHistory] (Table)
+       [dbo].[AspNetRoleClaims] (Table)
+       [dbo].[AspNetRoles] (Table)
+       [dbo].[AspNetRoles].[RoleNameIndex] (Index)
+       [dbo].[AspNetUserClaims] (Table)
+       [dbo].[AspNetUserLogins] (Table)
+       [dbo].[AspNetUserRoles] (Table)
+       [dbo].[AspNetUsers] (Table)
+       [dbo].[AspNetUsers].[EmailIndex] (Index)
+       [dbo].[AspNetUsers].[UserNameIndex] (Index)
+       [dbo].[FK_IdentityRoleClaim<string>_IdentityRole_RoleId] (Foreign Key)
+       [dbo].[FK_IdentityUserClaim<string>_ApplicationUser_UserId] (Foreign Key)
+       [dbo].[FK_IdentityUserLogin<string>_ApplicationUser_UserId] (Foreign Key)
+       [dbo].[FK_IdentityUserRole<string>_ApplicationUser_UserId] (Foreign Key)
+       [dbo].[FK_IdentityUserRole<string>_IdentityRole_RoleId] (Foreign Key)
+
+** Supporting actions

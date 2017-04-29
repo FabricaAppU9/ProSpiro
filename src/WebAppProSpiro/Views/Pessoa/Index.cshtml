@@ -1,0 +1,19 @@
+@model IEnumerable<WebAppProSpiro.ViewModel.PessoaViewModel.PessoaViewModel>
+
+@{
+    ViewData["Title"] = "Pacientes";
+}
+<div class="row">
+    <div class="col-md-8 col-lg-8">
+        <h2>Pacientes</h2>
+    </div><!-- /.col-lg-6 -->
+
+</div>
+
+<p>
+    <a asp-action="Create">Novo Paciente</a>
+</p>
+
+<div id="table">
+    @Html.Partial("_TablePaciente")
+</div>

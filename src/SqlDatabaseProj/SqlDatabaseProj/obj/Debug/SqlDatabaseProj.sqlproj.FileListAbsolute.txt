@@ -1,0 +1,9 @@
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro\src\SqlDatabaseProj\SqlDatabaseProj\bin\Debug\SqlDatabaseProj.dacpac
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro\src\SqlDatabaseProj\SqlDatabaseProj\bin\Debug\SqlDatabaseProj.dll
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro\src\SqlDatabaseProj\SqlDatabaseProj\bin\Debug\SqlDatabaseProj.pdb
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro\src\SqlDatabaseProj\SqlDatabaseProj\obj\Debug\SqlDatabaseProj.dll
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro\src\SqlDatabaseProj\SqlDatabaseProj\obj\Debug\SqlDatabaseProj.pdb
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro\src\SqlDatabaseProj\SqlDatabaseProj\obj\Debug\Model.xml
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro\src\SqlDatabaseProj\SqlDatabaseProj\obj\Debug\refactor.xml
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro\src\SqlDatabaseProj\SqlDatabaseProj\obj\Debug\postdeploy.sql
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro\src\SqlDatabaseProj\SqlDatabaseProj\obj\Debug\predeploy.sql

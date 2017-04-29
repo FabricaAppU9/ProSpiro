@@ -1,0 +1,25 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The type for column Estatura in table [dbo].[Pessoas] is currently  FLOAT (53) NOT NULL but is being changed to  DECIMAL
+         (18) NOT NULL. Data loss could occur.
+       The type for column Imc in table [dbo].[Pessoas] is currently  FLOAT (53) NOT NULL but is being changed to  DECIMAL (18)
+         NOT NULL. Data loss could occur.
+       The type for column Peso in table [dbo].[Pessoas] is currently  FLOAT (53) NOT NULL but is being changed to  DECIMAL
+         (18) NOT NULL. Data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[Pessoas] (Table)
+
+** Supporting actions
+
+The type for column Estatura in table [dbo].[Pessoas] is currently  FLOAT (53) NOT NULL but is being changed to  DECIMAL (18) NOT NULL. Data loss could occur.
+The type for column Imc in table [dbo].[Pessoas] is currently  FLOAT (53) NOT NULL but is being changed to  DECIMAL (18) NOT NULL. Data loss could occur.
+The type for column Peso in table [dbo].[Pessoas] is currently  FLOAT (53) NOT NULL but is being changed to  DECIMAL (18) NOT NULL. Data loss could occur.
+

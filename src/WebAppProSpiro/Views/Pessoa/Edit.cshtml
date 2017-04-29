@@ -1,0 +1,162 @@
+@model WebAppProSpiro.ViewModel.PessoaViewModel.PessoaViewModel
+
+@{
+    ViewData["Title"] = "Dados do Paciente";
+}
+
+<h2>Dados do Paciente</h2>
+
+<form asp-action="EditPessoa">
+    <div class="form-horizontal">
+
+        <hr />
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input asp-for="Id" hidden/>
+        <div class="row">
+            <div class="col-md-8" style="border:2px solid; border-color:gray">
+
+                <div class="row" style="margin-top:10px;">
+                    <div class="form-group">
+
+                        <div class="col-md-12">
+                            <div class="col-md-8">
+                                <label asp-for="Nome" style="text-align:left" class="col-md-12 control-label"></label>
+                                <div class="col-md-12">
+                                    <input asp-for="Nome" style="max-width:450px;" class="form-control" />
+                                    <span asp-validation-for="Nome" class="text-danger" />
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <label asp-for="DataNascimento" style="text-align:left" class="col-md-12 control-label"></label>
+                                <div class="col-md-12">
+                                    <input type="date" asp-for="DataNascimento" class="form-control" />
+                                    <span asp-validation-for="DataNascimento" class="text-danger" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:10px;">
+
+                    <div class="form-group">
+                        <div class="col-md-12">
+
+                            <div class="col-md-4">
+                                <label asp-for="Estatura" style="text-align:left" class="col-md-12 control-label"></label>
+                                <div class="col-md-12">
+                                    <input asp-for="Estatura" class="form-control" />
+                                    <span asp-validation-for="Estatura" class="text-danger" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label asp-for="Peso" style="text-align:left" class="col-md-12 control-label"></label>
+                                <div class="col-md-12">
+                                    <input asp-for="Peso" class="form-control" />
+                                    <span asp-validation-for="Peso" class="text-danger" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label asp-for="Genero" style="text-align:left" class="col-md-12 control-label"></label>
+                                <div class="col-md-12">
+                                    @Html.DropDownListFor(a => a.Genero, new SelectList(ViewBag.Genero, "Value", "Text"), "Selecione", new { @class = "form-control" })
+                                    <span asp-validation-for="Genero" class="text-danger" />
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-2">
+                                <label asp-for="Idade" style="text-align:left" class="col-md-12 control-label"></label>
+                                <div class="col-md-12">
+                                    <input asp-for="Idade" class="form-control" />
+                                    <span asp-validation-for="Idade" class="text-danger" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:10px;">
+
+                    <div class="form-group">
+                        <div class="col-md-12">
+                            <div class="col-md-2">
+                                <label asp-for="Imc" style="text-align:left" class="col-md-12 control-label"></label>
+                                <div class="col-md-12">
+                                    <input asp-for="Imc" class="form-control" />
+                                    <span asp-validation-for="Imc" class="text-danger" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label asp-for="Fumante" style="text-align:left" class="col-md-12 control-label"></label>
+                                <div class="col-md-12">
+                                    @Html.DropDownListFor(a => a.Fumante, new SelectList(ViewBag.SimNao, "Value", "Text"), "Selecione", new { @class = "form-control" })
+                                    <span asp-validation-for="Fumante" class="text-danger" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <label asp-for="ExFumante" style="text-align:left" class="col-md-12 control-label"></label>
+                                <div class="col-md-12">
+                                    @Html.DropDownListFor(a => a.ExFumante, new SelectList(ViewBag.SimNao, "Value", "Text"), "Selecione", new { @class = "form-control" })
+                                    <span asp-validation-for="ExFumante" class="text-danger" />
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4">
+                                <label asp-for="QndParouFumar" style="text-align:left" class="col-md-12 control-label"></label>
+                                <div class="col-md-12">
+                                    <input type="date" asp-for="QndParouFumar" class="form-control" />
+                                    <span asp-validation-for="QndParouFumar" class="text-danger" />
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row" style="margin-top:10px;">
+                    <div class="col-md-12">
+                        <label asp-for="Convenio" style="text-align:left" class="col-md-12 control-label"></label>
+                        <div class="col-md-12">
+                            <input asp-for="Convenio" style="max-width:750px;" class="form-control" />
+                            <span asp-validation-for="Convenio" class="text-danger" />
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row" style="margin-top:5%;">
+
+                    <div class="form-group">
+                        <div class="col-md-offset-10 col-md-2">
+                            <input type="submit" value="Create" class="btn btn-default" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+<link href="~/lib/bootstrap/dist/css-old/bootstrap.css" rel="stylesheet" />
+
+@section Scripts {
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}
