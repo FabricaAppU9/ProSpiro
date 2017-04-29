@@ -152,6 +152,10 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+<h3 id="1" hidden>
+    Rodolfo
+</h3>
+
 <link href="~/lib/bootstrap/dist/css-old/bootstrap.css" rel="stylesheet" />
 
 
@@ -159,4 +163,15 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
     <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+    <script>
+
+        $(function () {
+            alert($("#1").text());
+        });
+
+    </script>
+
+
+
 }

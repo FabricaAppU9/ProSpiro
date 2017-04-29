@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.0/",
-    "signature": "f02a2d91f93facc2ee9156f831a9ee4c455e13b3"
+    "signature": "5100949355e625520a6976c57a7355c48adb8842"
   },
   "compilationOptions": {
     "defines": [
@@ -36,7 +36,8 @@
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
           "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
           "SweetAlert": "1.0.0",
-          "jquery.datatables": "1.10.12"
+          "jquery.datatables": "1.10.12",
+          "jQuery.Steps": "1.1.0"
         },
         "compile": {
           "WebAppProSpiro.dll": {}
@@ -44,13 +45,18 @@
       },
       "bootstrap/3.3.7": {
         "dependencies": {
-          "jQuery": "1.9.1"
+          "jQuery": "1.10.2"
         }
       },
-      "jQuery/1.9.1": {},
+      "jQuery/1.10.2": {},
       "jquery.datatables/1.10.12": {
         "dependencies": {
-          "jQuery": "1.9.1"
+          "jQuery": "1.10.2"
+        }
+      },
+      "jQuery.Steps/1.1.0": {
+        "dependencies": {
+          "jQuery": "1.10.2"
         }
       },
       "Libuv/1.9.0": {
@@ -2760,7 +2766,8 @@
           "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
           "Microsoft.VisualStudio.Web.BrowserLink.Loader": "14.0.0",
           "SweetAlert": "1.0.0",
-          "jquery.datatables": "1.10.12"
+          "jquery.datatables": "1.10.12",
+          "jQuery.Steps": "1.1.0"
         },
         "runtime": {
           "WebAppProSpiro.dll": {}
@@ -2768,13 +2775,18 @@
       },
       "bootstrap/3.3.7": {
         "dependencies": {
-          "jQuery": "1.9.1"
+          "jQuery": "1.10.2"
         }
       },
-      "jQuery/1.9.1": {},
+      "jQuery/1.10.2": {},
       "jquery.datatables/1.10.12": {
         "dependencies": {
-          "jQuery": "1.9.1"
+          "jQuery": "1.10.2"
+        }
+      },
+      "jQuery.Steps/1.1.0": {
+        "dependencies": {
+          "jQuery": "1.10.2"
         }
       },
       "Libuv/1.9.0": {
@@ -5383,15 +5395,20 @@
       "serviceable": true,
       "sha512": "sha512-3YTWhPNh6UcnUvzw9u6A2/hy2w0h4lznxPbX6FY47lFia3+Ib4zBixTpW6YieYA/b2fLXbkjoD59OjcVF3cJXw=="
     },
-    "jQuery/1.9.1": {
+    "jQuery/1.10.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HiX9icLyiJGgiL5EOIn0d1MBPHVV2M9mzWT4mANdniDNR51RvAFTyKEXEd2+5yQJ4PJ5xePOR61Vjj/omQzYcw=="
+      "sha512": "sha512-uPspgAZqsXYOwLW+Kf3uRxdFAyX1EiEd6AWJhCsnZNVsUJmEbsZSxA0P+ku6oAhHI682TOSwkbmmJPwFgdY5cA=="
     },
     "jquery.datatables/1.10.12": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-pCOpZKP20u72TQW/OupWH3ry6ZNacDf2dAa+4Wt57ylfCVnvtX9CeptuvcSr6mGpIAQAciYK/D/VoWIIR3UCGg=="
+    },
+    "jQuery.Steps/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i0b/2qjjJD8qkIOIo4g8kH4R9YvD3cAZnjyY+rMtf4UB0ukPTEnaHaxzdfbkvd82CytIQheAH1Y9ThiF8cqCBA=="
     },
     "Libuv/1.9.0": {
       "type": "package",

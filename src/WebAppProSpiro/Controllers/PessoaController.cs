@@ -10,7 +10,7 @@ using WebAppProSpiro.Enuns;
 
 namespace WebAppProSpiro.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class PessoaController : Controller
     {
 
@@ -84,83 +84,11 @@ namespace WebAppProSpiro.Controllers
 
             return RedirectToAction("Index");
         }
-        //public IActionResult Edit(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
 
-        //    NivelAcessoViewModel nivelAcessoViewModel = _context.NivelAcessoViewModel.Single(m => m.IdNivelAcesso == id);
-        //    if (nivelAcessoViewModel == null)
-        //    {
-        //        return NotFound();
-        //    }
-        //    return View(nivelAcessoViewModel);
-        //}
-
-        //// POST: NivelAcessoViewModels/Edit/5
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public IActionResult Edit(NivelAcessoViewModel nivelAcessoViewModel)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        _context.Update(nivelAcessoViewModel);
-        //        _context.SaveChanges();
-        //        return RedirectToAction("Index");
-        //    }
-        //    return View(nivelAcessoViewModel);
-        //}
-
-        //// GET: NivelAcessoViewModels/Delete/5
-        //[ActionName("Delete")]
-        //public IActionResult Delete(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    NivelAcessoViewModel nivelAcessoViewModel = _context.NivelAcessoViewModel.Single(m => m.IdNivelAcesso == id);
-        //    if (nivelAcessoViewModel == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    return View(nivelAcessoViewModel);
-        //}
-
-        //// POST: NivelAcessoViewModels/Delete/5
-        //[ActionName("DeleteConfirmed")]
-        //public IActionResult DeleteConfirmed(int id)
-        //{
-        //    try
-        //    {
-        //        NivelAcessoViewModel nivelAcessoViewModel = _context.NivelAcessoViewModel.Single(m => m.IdNivelAcesso == id);
-        //        _context.NivelAcessoViewModel.Remove(nivelAcessoViewModel);
-        //        _context.SaveChanges();
-        //        return RedirectToAction("Index");
-        //    }
-        //    catch (System.Exception)
-        //    {
-
-        //        return RedirectToAction("Index");
-        //    }
-
-        //}
-
-        //public IActionResult SearchProject(string filtro)
-        //{
-        //    var search = _context.NivelAcessoViewModel.ToList();
-
-        //    if (!string.IsNullOrEmpty(filtro))
-        //    {
-        //        search = _context.NivelAcessoViewModel.Where(a => a.DescricaoNivelAcesso.Contains(filtro)).ToList();
-        //    }
-
-        //    return PartialView(search);
-        //}
-
+        public IActionResult testeSteps()
+        {
+            return View();
+        }
+        
     }
 }

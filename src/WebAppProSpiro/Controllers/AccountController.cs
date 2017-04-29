@@ -17,6 +17,7 @@ namespace WebAppProSpiro.Controllers
     [Authorize]
     public class AccountController : Controller
     {
+
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
         private readonly IEmailSender _emailSender;

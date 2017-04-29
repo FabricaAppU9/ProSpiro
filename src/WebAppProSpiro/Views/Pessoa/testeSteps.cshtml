@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Pacientes";
+}
+<div class="row">
+    <div class="col-md-8 col-lg-8">
+        <h2>Pacientes</h2>
+    </div><!-- /.col-lg-6 -->
+
+</div>
+<link href="~/css/jquery.steps.css" rel="stylesheet" />
+<script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+<link href="~/lib/bootstrap/dist/css-old/bootstrap.css" rel="stylesheet" />
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/steps/jquery.steps.min.js"></script>
+<div id="example-basic">
+    <h3>Keyboard</h3>
+    <section>
+        <p>Try the keyboard navigation by clicking arrow left or right!</p>
+    </section>
+    <h3>Effects</h3>
+    <section>
+        <p>Wonderful transition effects.</p>
+    </section>
+    <h3>Pager</h3>
+    <section>
+        <p>The next and previous buttons help you to navigate through your content.</p>
+    </section>
+</div>
+<script>
+    $("#example-basic").steps({
+        headerTag: "h3",
+        bodyTag: "section",
+        transitionEffect: "slideLeft",
+        autoFocus: true
+    });
+</script>
