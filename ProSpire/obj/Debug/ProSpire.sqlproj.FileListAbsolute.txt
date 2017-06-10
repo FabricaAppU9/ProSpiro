@@ -1,0 +1,5 @@
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro - Git\ProSpiro\ProSpire\bin\Debug\ProSpire.dacpac
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro - Git\ProSpiro\ProSpire\bin\Debug\ProSpire.dll
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro - Git\ProSpiro\ProSpire\bin\Debug\ProSpire.pdb
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro - Git\ProSpiro\ProSpire\obj\Debug\ProSpire.dll
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro - Git\ProSpiro\ProSpire\obj\Debug\ProSpire.pdb

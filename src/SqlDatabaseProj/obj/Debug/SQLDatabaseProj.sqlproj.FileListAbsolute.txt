@@ -1,0 +1,5 @@
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro - Git\ProSpiro\src\SQLDatabaseProj\bin\Debug\SQLDatabaseProj.dacpac
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro - Git\ProSpiro\src\SQLDatabaseProj\bin\Debug\SQLDatabaseProj.dll
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro - Git\ProSpiro\src\SQLDatabaseProj\bin\Debug\SQLDatabaseProj.pdb
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro - Git\ProSpiro\src\SQLDatabaseProj\obj\Debug\SQLDatabaseProj.dll
+C:\Users\rodol\Documents\Projetos Asp.net Core\WebAppProSpiro - Git\ProSpiro\src\SQLDatabaseProj\obj\Debug\SQLDatabaseProj.pdb
