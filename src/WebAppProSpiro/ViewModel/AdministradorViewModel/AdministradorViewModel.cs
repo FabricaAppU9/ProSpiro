@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebAppProSpiro.ViewModel.PessoaViewModel
+namespace WebAppProSpiro.ViewModel.AdministradorViewModel
 {
     [Table("administrador")]
     public class AdministradorViewModel

@@ -46,7 +46,8 @@
     },
     "SweetAlert": "1.0.0",
     "jquery.datatables": "1.10.12",
-    "jQuery.Steps": "1.1.0"
+    "jQuery.Steps": "1.1.0",
+    "AutoMapper": "6.1.1"
   },
 
   "tools": {

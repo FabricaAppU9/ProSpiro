@@ -40,5 +40,19 @@ namespace WebAppProSpiro.Controllers
         {
             return View();
         }
+
+        public JsonResult RetornaValor()
+        {
+            Random rnd = new Random();
+
+            int retorno = rnd.Next(100);
+
+            return Json(new { retorno = retorno}); 
+        }
+
+        public IActionResult LadingPage()
+        {
+            return View();
+        }
     }
 }
